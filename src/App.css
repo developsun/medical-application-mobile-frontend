@@ -1,0 +1,489 @@
+
+.bottom-navigation {
+    width: 100%;
+    box-shadow: 0px 3px 5px -1px rgb(0 0 0 / 20%), 0px 5px 8px 0px rgb(0 0 0 / 14%), 0px 1px 14px 0px rgb(0 0 0 / 12%);
+    position: fixed;
+    height: 64px;
+    bottom: 0;
+    z-index: 99999;
+    background-color: white;
+    border-top: 1px solid lightgrey;
+}
+
+.horizontal-scrollable  {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.horizontal-scrollable::-webkit-scrollbar {
+    display: none;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bottom-navigation .nav-item {
+    height: 100%;
+    text-align: center;
+}
+
+.nav-icon {
+    color: grey;
+    width: 100%;
+    padding: 10px 10px;
+    font-size:28px
+}
+
+.login-input{
+    background: transparent;
+    border: none;
+    outline: none;
+    display: block;
+    width:100%;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border-radius: 0px;
+    border-bottom: gray 1px solid;
+}
+.login-input:active, login-input:focus{
+    border: none;
+    outline: none;
+}
+
+.dashboard-search-input-icon-area {
+    display: flex;
+    align-items: center;
+    padding: .675rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border-radius: 2rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.dashboard-search-input {
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    background-color: #e9ecef;
+    outline: none;
+}
+
+.doctor-details-sub-heading {
+    font-size: 12px;
+}
+
+.doctor-details-sub-sub-heading {
+    font-size: 10px;
+}
+
+.doctor-card {
+    border-radius: 30px;
+    width: 100%;
+    min-height: 180px;
+    background-size: cover;
+}
+
+.floating-button {
+    background-color: #4285f4;
+    width: 100%;
+    color: white;
+    padding: 15px 0px;
+    font-weight: 600;
+    border-radius: 15px
+}
+
+.floating-button-area {
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.bottom-navigation {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid lightgrey;
+}
+
+.bottom-navigation .nav-item {
+    height: 100%;
+    text-align: center;
+}
+
+.nav-icon {
+    color: grey;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.dashboard-search-input-icon-area {
+    display: flex;
+    align-items: center;
+    padding: .675rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border-radius: 2rem;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+}
+
+.dashboard-search-input {
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    background-color: #e9ecef;
+    outline: none;
+}
+
+.doctor-details-sub-heading {
+    font-size: 12px;
+}
+
+.doctor-details-sub-sub-heading {
+    font-size: 10px;
+}
+
+.doctor-card {
+    border-radius: 20px;
+    width: 100%;
+    min-height: 180px;
+    background-size: cover;
+}
+
+.floating-button {
+    background-color: #4285f4;
+    width: 100%;
+    color: white;
+    padding: 15px 0px;
+    font-weight: 600;
+    border-radius: 15px
+}
+
+.floating-button-area {
+    position: fixed;
+    bottom: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.doctor-details-card {
+    border-radius: 20px;
+    padding: 30px 20px 120px 20px;
+}
+
+.doctor-details-bibliography-text {
+    font-size: 10px;
+}
+
+.detailed-content-header {
+    position: fixed;
+    z-index: 9;
+    width: transparent;
+}
+
+.doctor-card-in-list {
+    border-radius: 14px!important;
+}
+
+.doctor-image-in-list {
+    border-radius: 20px;
+    width: 100%;
+    min-height: 70px;
+    background-size: cover;
+}
+
+.doctor-category-pills {
+    outline: none;
+    border-radius: 12px;
+    border: none;
+    background-color: white;
+    padding: 4px 10px;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.doctor-category-pills.active {
+    outline: none;
+    border-radius: 12px;
+    border: none;
+    background-color: #4285f4;
+    color: white;
+    font-weight: 700;
+    padding: 4px 10px;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+
+.stores-subheader{
+    font-size:11px
+}
+
+.store-image-in-list{
+    width: 100%;
+    min-height: 210px;
+    background-size: cover;
+    border-radius: 1rem;
+    position: relative;
+    box-shadow: 4px 4px 32px 1px rgba(0,0,0,0.3);
+}
+.store-card-list-name{
+    font-size: 23px;
+    font-weight: bold;
+    color:black;
+}
+.store-image-in-list .overlay-dark{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+    transition: .5s ease;
+    background: linear-gradient(0deg, rgb(0 0 0 / 79%) 0%, rgb(255 255 255 / 0%) 100%);
+}
+.store-image-in-list .overlay-text{
+    position: absolute;
+    bottom: 15px;
+    left: -12px;
+    color: white;
+    padding: 5px;
+    background-color: red;
+    z-index: 3;
+    font-weight: bold;
+}
+
+.store-card-in-list {
+
+}
+.detailed-content-show-back-area{
+    position: fixed;
+    height: 20px;
+}
+.store-image{
+    min-height: 250px;
+    background-size: cover;
+}
+.store-service-scroller{
+    overflow: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.store-service-scroller::-webkit-scrollbar {
+    display: none;
+}
+.store-service-scroller-card{
+    height: 230px;
+    width: 170px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    color:white;
+    position: relative;
+}
+
+.bg-orange{
+    background-color: #ffba74;;
+}
+.bg-red{
+    background-color: #ff897e;;
+}
+
+.bg-purple{
+    background-color: #adace7;
+}
+.bg-purple-2{
+    background-color: #cea7f7;
+}
+.bg-orange-2{
+    background: #f5cfb4;
+}
+
+.store-service-scroller-card-image{
+    height: 120px;
+    bottom: 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.store-status-area{
+    background-color: #ffefde;
+    color:#ffba74;
+    padding: 10px;
+    border-radius: 13px;
+}
+
+.header-overlay{
+    position: absolute;
+    min-height: 350px;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+.header-overlay-short{
+    min-height: 250px;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+.header-overlay-rounded{
+    position: absolute;
+    min-height: 350px;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+    clip-path: ellipse(70% 49% at 50% 30%);
+}
+
+
+
+.doctors-search-input{
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    background-color: white;
+    outline: none;
+    padding: 10px 20px;
+}
+.chat-description{
+    font-size: 12px;
+    color: gray;
+}
+
+.chat-received-bubble{
+    background-color: lightgray;
+    padding: 10px 14px;
+    border-radius: 5px;
+    border-top-left-radius: 14px;
+    position: absolute;
+    margin-top: 15px;
+}
+
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+.messages-box,
+.chat-box {
+    height: 510px;
+    overflow-y: scroll;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.chat-bg-dark{
+    background-color: lightgray;
+}
+
+.message-input-box-area{
+    min-height: 30px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 20px;
+}
+
+.chat-message-input{
+    width: 100%;
+    border: none;
+    border-radius: 2rem;
+    background-color: #e9ecef;
+    outline: none;
+    padding: 12px 20px;
+}
+
+.chat-message-input-icon-area{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+
+}
+
+.full-width{
+    width: 100%;
+}
+.vertical-center {
+    display: flex;
+    align-items: center;
+}
+
+
+.dashboard-action-card{
+    min-height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    display: inline-block;
+    color:white;
+    position: relative;
+    margin-left: 20px;
+}
+
+.miniapp-scroller{
+    overflow: auto;
+    white-space: nowrap;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.miniapp-scroller::-webkit-scrollbar {
+    display: none;
+}
